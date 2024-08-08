@@ -7,11 +7,11 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background-color: #f9f9f9;
+  background-color: #f7f7f7;
 }
 
 .container {
@@ -21,6 +21,7 @@ body {
   background-color: #fff;
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 /* Header Styles */
@@ -29,7 +30,7 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #337ab7;
+  color: #2196f3;
 }
 
 /* Form Styles */
@@ -41,6 +42,8 @@ h1 {
 label {
   display: block;
   margin-bottom: 10px;
+  font-weight: bold;
+  color: #666;
 }
 
 select {
@@ -49,6 +52,7 @@ select {
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 button {
@@ -56,7 +60,7 @@ button {
   height: 40px;
   padding: 10px;
   font-size: 16px;
-  background-color: #337ab7;
+  background-color: #2196f3;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -64,7 +68,7 @@ button {
 }
 
 button:hover {
-  background-color: #23527c;
+  background-color: #1976d2;
 }
 
 /* Progress Bar Styles */
@@ -83,7 +87,7 @@ button:hover {
 #progressBar {
   width: 0;
   height: 20px;
-  background-color: #337ab7;
+  background-color: #2196f3;
   border-radius: 5px;
 }
 
@@ -91,11 +95,12 @@ button:hover {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
+  color: #666;
 }
 
 #progressLog {
   font-size: 14px;
-  color: #666;
+  color: #999;
 }
 
 /* Key Container Styles */
@@ -108,12 +113,14 @@ button:hover {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
+  color: #2196f3;
 }
 
 #keysList {
   padding: 10px;
-  background-color: #f9f9f9;
+  background-color: #f7f7f7;
   border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 #keysList div {
@@ -125,7 +132,7 @@ button:hover {
   height: 40px;
   padding: 10px;
   font-size: 16px;
-  background-color: #337ab7;
+  background-color: #2196f3;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -133,12 +140,12 @@ button:hover {
 }
 
 #copyAllBtn:hover {
-  background-color: #23527c;
+  background-color: #1976d2;
 }
 
 #copyStatus {
   font-size: 14px;
-  color: #666;
+  color: #999;
   margin-bottom: 10px;
 }
 
@@ -146,29 +153,39 @@ button:hover {
 
 .ads-placement {
   margin-bottom: 20px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
 }
 
 .ads-placement h3 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
+  color: #2196f3;
 }
 
 #ads-box {
   padding: 10px;
-  background-color: #f9f9f9;
+  background-color: #fff;
   border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 /* Footer Styles */
 
 .footer {
   margin-bottom: 20px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
 }
 
 .footer p {
   font-size: 14px;
-  color: #666;
+  color: #999;
   margin-bottom: 10px;
 }
 
@@ -177,13 +194,9 @@ button:hover {
   height: 40px;
   padding: 10px;
   font-size: 16px;
-  background-color: #337ab7;
+  background-color: #2196f3;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-
-#telegramChannelBtn:hover, #creatorChannelBtn:hover {
-  background-color: #23527c;
 }
